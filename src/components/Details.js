@@ -4,7 +4,7 @@ import { navigate } from "@reach/router";
 import Modal from "./Modal";
 import Carousel from "./Carousel";
 import ErrorBoundary from "./ErrorBoundary";
-import ThemeContext from "./ThemeContext";
+import ThemeContext from "../context/ThemeContext";
 
 class Details extends React.Component {
   state = {
